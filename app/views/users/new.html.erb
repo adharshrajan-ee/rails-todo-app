@@ -1,0 +1,18 @@
+<h2>Create new user</h2>
+
+<%#= form_with model: @user do  |form| %>
+<!--  <div>-->
+<!--    <label>First Name : </label>-->
+    <%#= form.text_field :first_name %>
+<!--  </div>-->
+<!--  <div>-->
+<!--    <label>First Name : </label>-->
+    <%#= form.text_field :last_name %>
+<!--  </div>-->
+<!--  <div>-->
+<!--    <label>First Name : </label>-->
+    <%#= form.text_field :email %>
+<!--  </div>-->
+  <%#= form.submit %>
+<%# end %>
+<%= render "form", user: @user %>
